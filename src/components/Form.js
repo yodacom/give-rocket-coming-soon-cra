@@ -36,16 +36,21 @@ const form = () => {
             <FormControl isRequired>
               <InputGroup>
                 <InputLeftElement children={<Icon name="email" />} />
-                <Input type="email" placeholder="Email" aria-label="Email" />
+                <Input
+                  variant="Outline"
+                  type="email"
+                  placeholder="Email"
+                  aria-label="Email"
+                />
               </InputGroup>
             </FormControl>
           </Stack>
           <Divider borderColor="red.100" />
           <Flex w="100%" align="center" justify="center">
             <Button
+              variant="Outline"
               leftIcon="arrow-forward"
               type="submit"
-              // variantColor="blue.200"
               boxShadow="sm"
               _hover={{ bg: "blue.400" }}
               _active={{ boxShadow: "lg" }}
