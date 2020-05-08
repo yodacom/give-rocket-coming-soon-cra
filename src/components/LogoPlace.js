@@ -2,21 +2,14 @@ import React from 'react'
 
 import {
   Flex,
-  useTheme,
   Stack,
-  PseudoBox,
-  useColorMode,
-  IconButton,
   Box,
   Image,
   Heading,
   Text,
-  Divider,
 } from "@chakra-ui/core";
 
 const LogoPlace = () => {
-  const theme = useTheme();
-  const comingSoon = `Coming Soon...`;
   const title = `Give Rocket`;
   const subText = `Helping great causes by enabling awesome donors to provide gifts of things
     or services for auction - virtually or physically - to causes they believe in`;
