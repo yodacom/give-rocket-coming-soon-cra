@@ -1,5 +1,5 @@
 // import firebase from "../../firebase/firebase";
-import React from 'react'
+import React from "react";
 import {
   Input,
   Stack,
@@ -24,6 +24,7 @@ const form = () => {
               <InputGroup>
                 <InputLeftElement children={<Icon name="info" />} />
                 <Input
+                  variant="Outline"
                   type=" name "
                   id="fName"
                   placeholder="First Name"
